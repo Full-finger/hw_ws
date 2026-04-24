@@ -1,0 +1,6 @@
+# 请求：传入模式编号
+int32 mode
+---
+# 响应：返回结果
+bool success
+string message

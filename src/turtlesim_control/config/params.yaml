@@ -1,0 +1,23 @@
+/**:
+  ros__parameters:
+    # 运动模式: 0=直线, 1=正弦, 2=方波
+    mode: 0
+
+    # 直线模式参数
+    linear_speed: 1.5
+    angular_speed: 0.0
+
+    # 正弦模式参数
+    sine_linear_speed: 1.0
+    sine_amplitude: 3.0
+    sine_frequency: 0.5
+
+    # 方波模式参数
+    square_linear_speed: 1.0
+    square_side_length: 3.0
+    square_turn_speed: 1.5
+
+    # 边界检测
+    boundary_min: 1.0
+    boundary_max: 10.0
+    boundary_turn_speed: 2.0
